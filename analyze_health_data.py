@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """
 Health Sensor Data Analysis Script
 
@@ -42,6 +43,14 @@ def calculate_statistics(data):
     # TODO: Calculate average systolic BP using data['blood_pressure_systolic'].mean()
     # TODO: Calculate average glucose level using data['glucose_level'].mean()
     # TODO: Return as dictionary with keys: 'avg_heart_rate', 'avg_systolic_bp', 'avg_glucose'
+    avg_hr_rate = data['heart_rate'.mean()]
+    avg_sys_bp = data['blood_pressure_systolic'].mean()
+    avg_glu_lvl = data['glucose_level'].mean()
+    return {
+        "average heart rate" : f'{avg_hr_rate:.1f}',
+        "average systolic BP" : f'{avg_sys_bp:.1f}',
+        "average gluclose" : f'{avg_glu_lvl:.1f}'
+    }
     pass
 
 
