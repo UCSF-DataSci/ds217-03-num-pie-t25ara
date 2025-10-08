@@ -1,0 +1,12 @@
+Health Sensor Data Analysis Report
+_____________________________________
+Dataset Summary:
+- Total readings:50000 
+Average Measurements:
+- Systolic Blood Pressure: 125.0 
+- Heart Rate: 80.1 
+- Glucose Level: 99.9 
+Abnormal Readings:
+- Heart Rate > 90 : 12386
+- Systolic BP >130 : 16180
+- Glucose > 110 : 16258
